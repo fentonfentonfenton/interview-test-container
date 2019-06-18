@@ -1,6 +1,6 @@
 # Interview Test Container Node.js Docker Fork
 
-* Install by cloning this fork and switching to the fenton branch, or just cloning that specific branch. `cd` in
+* Install by cloning this fork and switching to the fenton branch, or just cloning that specific branch. `cd` in to the node/src folder
 * run ```docker-compose up  --build``` & visit 127.0.0.1:8080 or wtvr in your browser or ```curl``` it, etc.
 * edit /src/app.js locally and if you refresh the browser, `nodemon` watches for your change. I could put something in to autorefresh the browser, too.
 * i'd need to play with the docker-compose and package.json files to add in envs / local / build - unelss there is a better way
