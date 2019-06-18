@@ -1,18 +1,14 @@
 # Interview Test Container
 
-    Please fork this repo or push to a different origin before updating.
-    This test should take no more than two hours.
-    Upon completion send an accessible repo link to your point of contact.
+* Install by cloning this fork and switching to the fenton branch, or just cloning that specific branch.
+* run ```docker-compose up  --build``` & visit 127.0.0.1:8080 or wtvr in your browser or ```curl``` it, etc.
+* edit /src/app.js locally and if you refresh the browser, `nodemon` watches for your change. I could put something in to autorefresh the browser, too.
+* i'd need to play with the docker-compose and package.json files to add in envs / local / build - unelss there is a better way
+* I haven't looked into linked/sidecar containers
+* I haven't consired security, or know how to right now.
+* I'd want to use a lightweight base container to limit the size, and limit the number of steps in the docker/compose files. But I don't see the benefit of doing that this second
 
-## Context
 
-As part of being able to be cross-platform (Linux, OSX, etc) and provider-agnostic (AWS, GCP, etc), 
-we require all of our applications to run within containers.
-The same application should run in a near identical way whether it's from one developer machine to another,
-or from one developer to our production environment.
-
-Choose from either the Node application or PHP application provided and following the criteria/considerations below, 
-containerise it.
 
 ## Criteria
 
