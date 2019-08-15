@@ -3,6 +3,8 @@
     Please fork this repo or push to a different origin before updating.
     This test should take no more than two hours.
     Upon completion send an accessible repo link to your point of contact.
+    
+[![Known Vulnerabilities](https://snyk.io//test/github/fentonfentonfenton/interview-test-container/badge.svg?targetFile=app/node/package.json)](https://snyk.io//test/github/fentonfentonfenton/interview-test-container?targetFile=app/node/package.json)
 
 ## Context
 
